@@ -1,0 +1,23 @@
+{
+  "name": "s3-s3-s3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stierma1/s3-s3-s3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stierma1/s3-s3-s3/issues"
+  },
+  "homepage": "https://github.com/stierma1/s3-s3-s3#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1125.0",
+    "bus-bus-bus": "^1.0.0"
+  }
+}
