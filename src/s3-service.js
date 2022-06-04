@@ -57,7 +57,7 @@ class S3Service{
     }));
     bus.on("S3Service:getObjectFromStream", this.callClient("S3Service:getObjectFromStream", async (returnService, {bucket, key, name}) => {
       try{
-        let {meta, stream} = await this.s3Client.getObjectByFile(bucket, key, name);
+        let {meta, stream} = await this.s3Client.getObjectFromStream(bucket, key, name);
         bus.emit(returnService, null, {meta, stream});
       } catch(err){
         bus.emit(returnService, err);
